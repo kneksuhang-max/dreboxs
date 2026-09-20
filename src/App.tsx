@@ -373,23 +373,10 @@ function DreBoXsMain() {
               DreBoXs
             </span>
             <span>—</span>
-            <span>Kotak Impian Pribadi</span>
+            <span>Dream Boxs / Kotak Impian</span>
           </div>
 
-          <div className="flex items-center gap-4 text-[11px] font-mono text-zinc-400">
-            <span className="flex items-center gap-1">
-              <Database className="h-3 w-3 text-zinc-600 dark:text-zinc-400" />{" "}
-              Dexie.js Aktif
-            </span>
-            <span className="flex items-center gap-1">
-              <Shield className="h-3 w-3 text-zinc-600 dark:text-zinc-400" />
-              {settings?.isPinEnabled ? "PIN Terproteksi" : "PIN Terbuka"}
-            </span>
-            <span className="flex items-center gap-1">
-              <Send className="h-3 w-3 text-zinc-600 dark:text-zinc-400" />{" "}
-              Telegram Terhubung
-            </span>
-          </div>
+          
         </div>
       </footer>
     </div>

@@ -1025,12 +1025,6 @@ export const Dashboard8Settings: React.FC<Dashboard8SettingsProps> = ({
               {/* Auto-Lock Duration Selection */}
               <div className="border border-zinc-100 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-800/40 p-2.5">
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-1.5">
-                    <Clock className="h-3.5 w-3.5 text-zinc-600 dark:text-zinc-400" />
-                    <label className="text-[11px] font-semibold text-zinc-800 dark:text-zinc-200">
-                      Otomatis terkunci (Auto-Lock):
-                    </label>
-                  </div>
                   <select
                     value={autoLockMinutes}
                     onChange={(e) => setAutoLockMinutes(Number(e.target.value))}
