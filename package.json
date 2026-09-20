@@ -1,0 +1,61 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@hookform/resolvers": "^5.9.1",
+    "@iconify/react": "^6.0.2",
+    "@tailwindcss/vite": "^4.1.14",
+    "@tanstack/react-query": "^5.102.8",
+    "@tanstack/react-table": "^8.20.0",
+    "@tanstack/react-virtual": "^3.14.13",
+    "@vitejs/plugin-react": "^5.0.4",
+    "cmdk": "^1.1.1",
+    "dexie": "^4.4.6",
+    "dexie-react-hooks": "^4.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "gsap": "^3.15.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "lucide-react": "^0.546.0",
+    "meilisearch": "^0.62.0",
+    "motion": "^12.23.24",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-hook-form": "^7.88.0",
+    "react-router-dom": "^7.18.3",
+    "recharts": "^3.10.1",
+    "vite": "^6.2.3",
+    "xlsx": "^0.18.5",
+    "zod": "^4.6.5",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  },
+  "allowScripts": {
+    "protobufjs@7.6.6": true,
+    "core-js@3.50.0": true,
+    "@google/genai@2.23.0": true,
+    "esbuild@0.28.2": true
+  }
+}
