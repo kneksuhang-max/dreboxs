@@ -11,6 +11,6 @@ export default defineConfig(() => {
         "@": path.resolve(__dirname, "."),
       },
     },
-    base: "/nama-repo-anda/",
+    base: "/dreboxs/",
   };
 });
